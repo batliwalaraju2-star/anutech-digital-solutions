@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
             <img src={logo} alt="Anutech Digital" className="h-10 md:h-12" />
-            <div className="hidden sm:block">
+            <div>
               <span className="text-xl font-bold text-foreground">Anutech</span>
               <span className="text-xl font-bold text-primary"> Digital</span>
             </div>
