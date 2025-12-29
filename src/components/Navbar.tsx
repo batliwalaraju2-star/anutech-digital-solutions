@@ -37,8 +37,12 @@ const Navbar = () => {
     <nav className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-background shadow-card py-2' : 'bg-background/95 backdrop-blur-sm py-4'}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          <a href="#home">
-            <img src={logo} alt="Anutech Digital" className="h-10 md:h-12" />
+          <a href="#home" className="flex items-center gap-2">
+            <img src={logo} alt="Anutech Digital" className="h-10 md:h-12 w-auto object-contain" style={{ maxWidth: '50px' }} />
+            <div className="border-l border-border pl-2">
+              <span className="text-lg md:text-xl font-bold text-foreground">Anutech</span>
+              <span className="text-lg md:text-xl font-bold text-primary"> Digital</span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}
