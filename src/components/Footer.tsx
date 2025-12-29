@@ -89,7 +89,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="text-primary-foreground/60">
                 <span className="text-primary font-medium block">Phone:</span>
-                +91 98765 43210
+                777-888-9674
               </li>
               <li className="text-primary-foreground/60">
                 <span className="text-primary font-medium block">Email:</span>
@@ -97,7 +97,7 @@ const Footer = () => {
               </li>
               <li className="text-primary-foreground/60">
                 <span className="text-primary font-medium block">Address:</span>
-                New Delhi, India
+                B9-54, Rohini, Sector-5, Delhi
               </li>
             </ul>
           </div>

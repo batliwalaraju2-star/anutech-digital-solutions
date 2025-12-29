@@ -46,8 +46,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-foreground mb-1">Call Us</h3>
-                <p className="text-muted-foreground">+91 98765 43210</p>
-                <p className="text-muted-foreground">+91 11 4567 8900</p>
+                <p className="text-muted-foreground">777-888-9674</p>
               </div>
             </div>
             
@@ -68,8 +67,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-foreground mb-1">Our Office</h3>
-                <p className="text-muted-foreground">New Delhi, India</p>
-                <p className="text-muted-foreground">110001</p>
+                <p className="text-muted-foreground">B9-54, Rohini, Sector-5, Delhi</p>
               </div>
             </div>
           </div>
