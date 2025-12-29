@@ -5,10 +5,10 @@ const TopBar = () => {
     <div className="bg-hero text-primary-foreground/80 py-2.5 text-sm hidden md:block">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center gap-8">
-          <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="tel:7778889674" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Phone className="w-4 h-4 text-primary" />
             <span className="text-muted-foreground text-xs">Call for help:</span>
-            <span className="font-medium text-primary-foreground">+91 98765 43210</span>
+            <span className="font-medium text-primary-foreground">777-888-9674</span>
           </a>
           <a href="mailto:info@anutechdigital.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="w-4 h-4 text-primary" />
@@ -18,7 +18,7 @@ const TopBar = () => {
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />
             <span className="text-muted-foreground text-xs">Our Address:</span>
-            <span className="font-medium text-primary-foreground">New Delhi, India</span>
+            <span className="font-medium text-primary-foreground">B9-54, Rohini, Sector-5, Delhi</span>
           </div>
         </div>
         <div className="flex items-center gap-4">
