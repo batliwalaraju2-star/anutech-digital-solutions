@@ -26,8 +26,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <div className="mb-6">
-              <img src={logo} alt="Anutech Digital" className="h-12" />
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 overflow-hidden">
+                <img src={logo} alt="Anutech Digital" className="h-full w-auto object-cover object-left" />
+              </div>
+              <div>
+                <span className="text-lg font-bold text-primary-foreground">Anutech</span>
+                <span className="text-lg font-bold text-primary"> Digital</span>
+              </div>
             </div>
             <p className="text-primary-foreground/60 mb-6 font-body">
               Your trusted partner for IT solutions including Google Workspace, web development, domain & hosting services.
